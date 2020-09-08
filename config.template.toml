@@ -1,0 +1,3 @@
+source="http://example.com/<foo>"
+destination="http://(foo}.example.com"
+port=14808

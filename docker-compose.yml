@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    image: 'python:3.8'
+    working_dir: '/app'
+    volumes:
+      - '.:/app'
+    ports:
+      - '14808:14808'
