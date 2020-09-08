@@ -7,3 +7,4 @@ services:
       - '.:/app'
     ports:
       - '14808:14808'
+    command: ['./launch.sh']
